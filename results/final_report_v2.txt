@@ -1,0 +1,149 @@
+======================================================================
+Evaluating ALL Saved Models
+======================================================================
+
+Results for state: Alabama
+------------------------------------------------------------
+DEBUG: Initialized StackedEnsemble with base models: []
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+XGBoost              0.63%     2130234.26      1252677.00     
+StackedEnsemble      0.63%     2130526.47      1252793.60     
+ARIMA                4.46%     10452176.33     8788332.45     
+LSTM                 5.25%     12146744.77     10265873.54    
+Prophet              7.66%     17635125.65     14962633.26    
+
+Best Model for Alabama: XGBoost
+
+Results for state: Arizona
+------------------------------------------------------------
+DEBUG: Initialized StackedEnsemble with base models: []
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      1.70%     5617973.68      3788544.51     
+XGBoost              1.71%     5628093.32      3799755.16     
+ARIMA                4.60%     12238757.52     9675203.62     
+LSTM                 4.69%     12135393.80     10068693.76    
+Prophet              5.51%     14157832.14     11479139.75    
+
+Best Model for Arizona: StackedEnsemble
+
+Results for state: Arkansas
+------------------------------------------------------------
+DEBUG: Initialized StackedEnsemble with base models: []
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+XGBoost              0.70%     1226367.57      760925.65      
+StackedEnsemble      0.76%     1284741.27      821388.52      
+ARIMA                3.80%     4884563.49      4031757.79     
+Prophet              8.45%     10106685.79     8882923.81     
+LSTM                 13.52%     15110664.79     14299291.86    
+
+Best Model for Arkansas: XGBoost
+
+Results for state: California
+------------------------------------------------------------
+DEBUG: Initialized StackedEnsemble with base models: []
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      0.82%     9421543.37      6820022.13     
+XGBoost              0.82%     9427755.47      6829528.55     
+ARIMA                4.24%     45913172.98     33823882.47    
+LSTM                 8.29%     75468757.23     67110429.16    
+Prophet              11.42%     97831729.29     93522383.78    
+
+Best Model for California: StackedEnsemble
+
+Results for state: Colorado
+------------------------------------------------------------
+DEBUG: Initialized StackedEnsemble with base models: []
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+XGBoost              0.77%     2033816.42      1332131.45     
+StackedEnsemble      0.77%     2034511.98      1333568.52     
+LSTM                 4.04%     8194987.49      6754784.52     
+ARIMA                6.83%     13159378.35     11384763.47    
+Prophet              9.97%     18218169.81     16800776.07    
+
+Best Model for Colorado: XGBoost
+
+Results for state: Connecticut
+------------------------------------------------------------
+DEBUG: Initialized StackedEnsemble with base models: []
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      0.77%     1030378.85      672154.65      
+XGBoost              0.77%     1030525.22      672527.34      
+ARIMA                5.73%     5865978.74      4864116.93     
+LSTM                 6.07%     6222150.90      5407695.81     
+Prophet              8.86%     8393977.75      7608072.10     
+
+Best Model for Connecticut: StackedEnsemble
+
+Results for state: Florida
+------------------------------------------------------------
+DEBUG: Initialized StackedEnsemble with base models: []
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      1.23%     14620229.70     9173963.71     
+XGBoost              1.23%     14631319.75     9178165.79     
+Prophet              4.26%     38517496.86     31752128.98    
+ARIMA                4.78%     42067335.14     35607537.92    
+LSTM                 8.38%     65963538.42     60030691.75    
+
+Best Model for Florida: StackedEnsemble
+
+Results for state: Georgia
+------------------------------------------------------------
+DEBUG: Initialized StackedEnsemble with base models: []
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      0.58%     3864540.83      2175479.77     
+XGBoost              0.59%     3793131.85      2177406.46     
+ARIMA                3.72%     15971389.58     13676291.58    
+LSTM                 3.75%     16085750.56     13765057.03    
+Prophet              7.08%     30449215.74     25641048.80    
+
+Best Model for Georgia: StackedEnsemble
+
+Results for state: Illinois
+------------------------------------------------------------
+DEBUG: Initialized StackedEnsemble with base models: []
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      0.72%     3606138.94      2216703.23     
+XGBoost              0.72%     3608391.94      2218713.61     
+LSTM                 3.91%     15615690.13     11673548.57    
+ARIMA                4.77%     18603214.45     14209405.90    
+Prophet              6.62%     23169973.42     19987252.02    
+
+Best Model for Illinois: StackedEnsemble
+
+Results for state: Indiana
+------------------------------------------------------------
+DEBUG: Initialized StackedEnsemble with base models: []
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      0.77%     2413287.49      1651506.72     
+XGBoost              0.77%     2417960.00      1656409.52     
+LSTM                 3.61%     9730292.54      7609148.31     
+ARIMA                3.91%     10534494.59     8210847.30     
+Prophet              6.95%     17193575.77     14688863.92    
+
+Best Model for Indiana: StackedEnsemble
+
+Results for state: Iowa
+------------------------------------------------------------
+DEBUG: Initialized StackedEnsemble with base models: []
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      0.80%     1245568.51      903276.03      
+XGBoost              0.80%     1245982.64      903714.79      
+LSTM                 3.88%     5396102.46      4300287.66     
+ARIMA                6.12%     8163615.72      6697670.13     
+Prophet              6.37%     8248578.40      7014591.46     
+
+Best Model for Iowa: StackedEnsemble
+
+Results for state: Kansas
+------------------------------------------------------------

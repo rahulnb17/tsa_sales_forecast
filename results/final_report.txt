@@ -1,0 +1,605 @@
+======================================================================
+Evaluating ALL Saved Models
+======================================================================
+
+Results for state: Alabama
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Alabama: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Alabama: StackedEnsemble
+
+Results for state: Arizona
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Arizona: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Arizona: StackedEnsemble
+
+Results for state: Arkansas
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Arkansas: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Arkansas: StackedEnsemble
+
+Results for state: California
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for California: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for California: StackedEnsemble
+
+Results for state: Colorado
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Colorado: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Colorado: StackedEnsemble
+
+Results for state: Connecticut
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Connecticut: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Connecticut: StackedEnsemble
+
+Results for state: Florida
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Florida: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Florida: StackedEnsemble
+
+Results for state: Georgia
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Georgia: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Georgia: StackedEnsemble
+
+Results for state: Illinois
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Illinois: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Illinois: StackedEnsemble
+
+Results for state: Indiana
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Indiana: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Indiana: StackedEnsemble
+
+Results for state: Iowa
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Iowa: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Iowa: StackedEnsemble
+
+Results for state: Kansas
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Kansas: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Kansas: StackedEnsemble
+
+Results for state: Kentucky
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Kentucky: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Kentucky: StackedEnsemble
+
+Results for state: Louisiana
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Louisiana: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Louisiana: StackedEnsemble
+
+Results for state: Maine
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Maine: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Maine: StackedEnsemble
+
+Results for state: Maryland
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Maryland: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Maryland: StackedEnsemble
+
+Results for state: Massachusetts
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Massachusetts: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Massachusetts: StackedEnsemble
+
+Results for state: Michigan
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Michigan: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Michigan: StackedEnsemble
+
+Results for state: Minnesota
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Minnesota: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Minnesota: StackedEnsemble
+
+Results for state: Mississippi
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Mississippi: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Mississippi: StackedEnsemble
+
+Results for state: Missouri
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Missouri: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Missouri: StackedEnsemble
+
+Results for state: Nebraska
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Nebraska: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Nebraska: StackedEnsemble
+
+Results for state: Nevada
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Nevada: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Nevada: StackedEnsemble
+
+Results for state: New Hampshire
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for New Hampshire: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for New Hampshire: StackedEnsemble
+
+Results for state: New Mexico
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for New Mexico: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for New Mexico: StackedEnsemble
+
+Results for state: New York
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for New York: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for New York: StackedEnsemble
+
+Results for state: North Carolina
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for North Carolina: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for North Carolina: StackedEnsemble
+
+Results for state: Ohio
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Ohio: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Ohio: StackedEnsemble
+
+Results for state: Oklahoma
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Oklahoma: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Oklahoma: StackedEnsemble
+
+Results for state: Oregon
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Oregon: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Oregon: StackedEnsemble
+
+Results for state: Pennsylvania
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Pennsylvania: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Pennsylvania: StackedEnsemble
+
+Results for state: Rhode Island
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Rhode Island: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Rhode Island: StackedEnsemble
+
+Results for state: South Carolina
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for South Carolina: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for South Carolina: StackedEnsemble
+
+Results for state: South Dakota
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for South Dakota: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for South Dakota: StackedEnsemble
+
+Results for state: Tennessee
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Tennessee: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Tennessee: StackedEnsemble
+
+Results for state: Texas
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Texas: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Texas: StackedEnsemble
+
+Results for state: Utah
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Utah: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Utah: StackedEnsemble
+
+Results for state: Vermont
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Vermont: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Vermont: StackedEnsemble
+
+Results for state: Virginia
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Virginia: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Virginia: StackedEnsemble
+
+Results for state: Washington
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Washington: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Washington: StackedEnsemble
+
+Results for state: West Virginia
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for West Virginia: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for West Virginia: StackedEnsemble
+
+Results for state: Wisconsin
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Wisconsin: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Wisconsin: StackedEnsemble
+
+Results for state: Wyoming
+------------------------------------------------------------
+  Error evaluating ARIMA: ARIMAModel.evaluate() takes 2 positional arguments but 4 were given
+  Error evaluating XGBoost: XGBoostModel.evaluate() takes 3 positional arguments but 4 were given
+  Error evaluating Prophet: ProphetModel.evaluate() takes 2 positional arguments but 4 were given
+Error loading LSTM: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+DEBUG: Initialized StackedEnsemble with base models: []
+Error evaluating stacked ensemble for Wyoming: object of type 'numpy.float64' has no len()
+Model                MAPE       RMSE            MAE            
+------------------------------------------------------------
+StackedEnsemble      inf%     inf             inf            
+
+Best Model for Wyoming: StackedEnsemble
