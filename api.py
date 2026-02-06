@@ -16,7 +16,7 @@ import os
 
 app = FastAPI(
     title="Sales Forecasting API",
-    description="API for forecasting sales using XGBoost",
+    description="API for forecasting sales",
     version="1.0.0"
 )
 
