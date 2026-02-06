@@ -23,13 +23,7 @@ wheels/
 .installed.cfg
 *.egg
 
-# Models and data
-# (Allow trained models)
-models/*_scaler.joblib
-models/*_config.joblib
-data/*.xlsx
-data/*.csv
-results/*.json
+
 
 # IDE
 .vscode/

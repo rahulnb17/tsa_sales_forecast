@@ -1,0 +1,49 @@
+{
+  "completed_states": [
+    "West Virginia"
+  ],
+  "results": {
+    "West Virginia": {
+      "best_model": "StackedEnsemble",
+      "metrics": {
+        "ARIMA": {
+          "mae": 3060476.0180975203,
+          "rmse": 3634244.9887485015,
+          "mape": 4.173978906573331
+        },
+        "XGBoost": {
+          "mae": 735984.133044818,
+          "rmse": 1044465.6317070548,
+          "mape": 0.989519772699301
+        },
+        "LSTM": {
+          "mae": 3321532.3215462635,
+          "rmse": 3893565.421959797,
+          "mape": 4.496121930339925
+        },
+        "Prophet": {
+          "mae": 3143458.1393691655,
+          "rmse": 3975253.06989184,
+          "mape": 4.427239744793064
+        },
+        "StackedEnsemble": {
+          "mae": 735458.4053101124,
+          "rmse": 1043926.166300756,
+          "mape": 0.988821931012295
+        }
+      },
+      "train_size": 1429,
+      "test_size": 358
+    }
+  },
+  "best_models": {
+    "West Virginia": {
+      "model_name": "StackedEnsemble",
+      "metrics": {
+        "mae": 735458.4053101124,
+        "rmse": 1043926.166300756,
+        "mape": 0.988821931012295
+      }
+    }
+  }
+}

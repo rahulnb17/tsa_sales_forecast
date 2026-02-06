@@ -1,0 +1,1378 @@
+{
+  "Alabama": {
+    "best_model": "XGBoost",
+    "metrics": {
+      "XGBoost": {
+        "mae": 1252677.0,
+        "rmse": 2130234.26,
+        "mape": 0.63
+      },
+      "StackedEnsemble": {
+        "mae": 1252793.6,
+        "rmse": 2130526.47,
+        "mape": 0.63
+      },
+      "ARIMA": {
+        "mae": 8788332.45,
+        "rmse": 10452176.33,
+        "mape": 4.46
+      },
+      "LSTM": {
+        "mae": 10265873.54,
+        "rmse": 12146744.77,
+        "mape": 5.25
+      },
+      "Prophet": {
+        "mae": 14962633.26,
+        "rmse": 17635125.65,
+        "mape": 7.66
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Arizona": {
+    "best_model": "StackedEnsemble",
+    "metrics": {
+      "StackedEnsemble": {
+        "mae": 3788544.51,
+        "rmse": 5617973.68,
+        "mape": 1.7
+      },
+      "XGBoost": {
+        "mae": 3799755.16,
+        "rmse": 5628093.32,
+        "mape": 1.71
+      },
+      "ARIMA": {
+        "mae": 9675203.62,
+        "rmse": 12238757.52,
+        "mape": 4.6
+      },
+      "LSTM": {
+        "mae": 10068693.76,
+        "rmse": 12135393.8,
+        "mape": 4.69
+      },
+      "Prophet": {
+        "mae": 11479139.75,
+        "rmse": 14157832.14,
+        "mape": 5.51
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Arkansas": {
+    "best_model": "XGBoost",
+    "metrics": {
+      "XGBoost": {
+        "mae": 760925.65,
+        "rmse": 1226367.57,
+        "mape": 0.7
+      },
+      "StackedEnsemble": {
+        "mae": 821388.52,
+        "rmse": 1284741.27,
+        "mape": 0.76
+      },
+      "ARIMA": {
+        "mae": 4031757.79,
+        "rmse": 4884563.49,
+        "mape": 3.8
+      },
+      "Prophet": {
+        "mae": 8882923.81,
+        "rmse": 10106685.79,
+        "mape": 8.45
+      },
+      "LSTM": {
+        "mae": 14299291.86,
+        "rmse": 15110664.79,
+        "mape": 13.52
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "California": {
+    "best_model": "StackedEnsemble",
+    "metrics": {
+      "StackedEnsemble": {
+        "mae": 6820022.13,
+        "rmse": 9421543.37,
+        "mape": 0.82
+      },
+      "XGBoost": {
+        "mae": 6829528.55,
+        "rmse": 9427755.47,
+        "mape": 0.82
+      },
+      "ARIMA": {
+        "mae": 33823882.47,
+        "rmse": 45913172.98,
+        "mape": 4.24
+      },
+      "LSTM": {
+        "mae": 67110429.16,
+        "rmse": 75468757.23,
+        "mape": 8.29
+      },
+      "Prophet": {
+        "mae": 93522383.78,
+        "rmse": 97831729.29,
+        "mape": 11.42
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Colorado": {
+    "best_model": "XGBoost",
+    "metrics": {
+      "XGBoost": {
+        "mae": 1332131.45,
+        "rmse": 2033816.42,
+        "mape": 0.77
+      },
+      "StackedEnsemble": {
+        "mae": 1333568.52,
+        "rmse": 2034511.98,
+        "mape": 0.77
+      },
+      "LSTM": {
+        "mae": 6754784.52,
+        "rmse": 8194987.49,
+        "mape": 4.04
+      },
+      "ARIMA": {
+        "mae": 11384763.47,
+        "rmse": 13159378.35,
+        "mape": 6.83
+      },
+      "Prophet": {
+        "mae": 16800776.07,
+        "rmse": 18218169.81,
+        "mape": 9.97
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Connecticut": {
+    "best_model": "StackedEnsemble",
+    "metrics": {
+      "StackedEnsemble": {
+        "mae": 672154.65,
+        "rmse": 1030378.85,
+        "mape": 0.77
+      },
+      "XGBoost": {
+        "mae": 672527.34,
+        "rmse": 1030525.22,
+        "mape": 0.77
+      },
+      "ARIMA": {
+        "mae": 4864116.93,
+        "rmse": 5865978.74,
+        "mape": 5.73
+      },
+      "LSTM": {
+        "mae": 5407695.81,
+        "rmse": 6222150.9,
+        "mape": 6.07
+      },
+      "Prophet": {
+        "mae": 7608072.1,
+        "rmse": 8393977.75,
+        "mape": 8.86
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Florida": {
+    "best_model": "StackedEnsemble",
+    "metrics": {
+      "StackedEnsemble": {
+        "mae": 9173963.71,
+        "rmse": 14620229.7,
+        "mape": 1.23
+      },
+      "XGBoost": {
+        "mae": 9178165.79,
+        "rmse": 14631319.75,
+        "mape": 1.23
+      },
+      "Prophet": {
+        "mae": 31752128.98,
+        "rmse": 38517496.86,
+        "mape": 4.26
+      },
+      "ARIMA": {
+        "mae": 35607537.92,
+        "rmse": 42067335.14,
+        "mape": 4.78
+      },
+      "LSTM": {
+        "mae": 60030691.75,
+        "rmse": 65963538.42,
+        "mape": 8.38
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Georgia": {
+    "best_model": "StackedEnsemble",
+    "metrics": {
+      "StackedEnsemble": {
+        "mae": 2175479.77,
+        "rmse": 3864540.83,
+        "mape": 0.58
+      },
+      "XGBoost": {
+        "mae": 2177406.46,
+        "rmse": 3793131.85,
+        "mape": 0.59
+      },
+      "ARIMA": {
+        "mae": 13676291.58,
+        "rmse": 15971389.58,
+        "mape": 3.72
+      },
+      "LSTM": {
+        "mae": 13765057.03,
+        "rmse": 16085750.56,
+        "mape": 3.75
+      },
+      "Prophet": {
+        "mae": 25641048.8,
+        "rmse": 30449215.74,
+        "mape": 7.08
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Illinois": {
+    "best_model": "StackedEnsemble",
+    "metrics": {
+      "StackedEnsemble": {
+        "mae": 2216703.23,
+        "rmse": 3606138.94,
+        "mape": 0.72
+      },
+      "XGBoost": {
+        "mae": 2218713.61,
+        "rmse": 3608391.94,
+        "mape": 0.72
+      },
+      "LSTM": {
+        "mae": 11673548.57,
+        "rmse": 15615690.13,
+        "mape": 3.91
+      },
+      "ARIMA": {
+        "mae": 14209405.9,
+        "rmse": 18603214.45,
+        "mape": 4.77
+      },
+      "Prophet": {
+        "mae": 19987252.02,
+        "rmse": 23169973.42,
+        "mape": 6.62
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Indiana": {
+    "best_model": "StackedEnsemble",
+    "metrics": {
+      "StackedEnsemble": {
+        "mae": 1651506.72,
+        "rmse": 2413287.49,
+        "mape": 0.77
+      },
+      "XGBoost": {
+        "mae": 1656409.52,
+        "rmse": 2417960.0,
+        "mape": 0.77
+      },
+      "LSTM": {
+        "mae": 7609148.31,
+        "rmse": 9730292.54,
+        "mape": 3.61
+      },
+      "ARIMA": {
+        "mae": 8210847.3,
+        "rmse": 10534494.59,
+        "mape": 3.91
+      },
+      "Prophet": {
+        "mae": 14688863.92,
+        "rmse": 17193575.77,
+        "mape": 6.95
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Iowa": {
+    "best_model": "StackedEnsemble",
+    "metrics": {
+      "StackedEnsemble": {
+        "mae": 903276.03,
+        "rmse": 1245568.51,
+        "mape": 0.8
+      },
+      "XGBoost": {
+        "mae": 903714.79,
+        "rmse": 1245982.64,
+        "mape": 0.8
+      },
+      "LSTM": {
+        "mae": 4300287.66,
+        "rmse": 5396102.46,
+        "mape": 3.88
+      },
+      "ARIMA": {
+        "mae": 6697670.13,
+        "rmse": 8163615.72,
+        "mape": 6.12
+      },
+      "Prophet": {
+        "mae": 7014591.46,
+        "rmse": 8248578.4,
+        "mape": 6.37
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Kansas": {
+    "best_model": "StackedEnsemble",
+    "metrics": {
+      "StackedEnsemble": {
+        "mae": 734172.02,
+        "rmse": 1083247.5,
+        "mape": 0.83
+      },
+      "XGBoost": {
+        "mae": 734265.78,
+        "rmse": 1083276.55,
+        "mape": 0.83
+      },
+      "ARIMA": {
+        "mae": 3445529.5,
+        "rmse": 4526207.58,
+        "mape": 4.03
+      },
+      "LSTM": {
+        "mae": 3554411.09,
+        "rmse": 4689782.09,
+        "mape": 4.16
+      },
+      "Prophet": {
+        "mae": 3995187.77,
+        "rmse": 5230919.86,
+        "mape": 4.67
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Kentucky": {
+    "best_model": "StackedEnsemble",
+    "metrics": {
+      "StackedEnsemble": {
+        "mae": 993577.13,
+        "rmse": 1697962.71,
+        "mape": 0.59
+      },
+      "XGBoost": {
+        "mae": 995665.56,
+        "rmse": 1699086.8,
+        "mape": 0.6
+      },
+      "LSTM": {
+        "mae": 5901176.65,
+        "rmse": 7251201.63,
+        "mape": 3.55
+      },
+      "ARIMA": {
+        "mae": 6055178.14,
+        "rmse": 7523354.76,
+        "mape": 3.67
+      },
+      "Prophet": {
+        "mae": 10254444.93,
+        "rmse": 12341977.22,
+        "mape": 6.26
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Louisiana": {
+    "best_model": "StackedEnsemble",
+    "metrics": {
+      "StackedEnsemble": {
+        "mae": 2054356.01,
+        "rmse": 3143729.5,
+        "mape": 1.16
+      },
+      "XGBoost": {
+        "mae": 2055800.17,
+        "rmse": 3145130.45,
+        "mape": 1.16
+      },
+      "ARIMA": {
+        "mae": 7443637.89,
+        "rmse": 9527337.15,
+        "mape": 4.36
+      },
+      "LSTM": {
+        "mae": 14794363.28,
+        "rmse": 17040265.68,
+        "mape": 8.69
+      },
+      "Prophet": {
+        "mae": 18371392.0,
+        "rmse": 20253729.87,
+        "mape": 10.68
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Maine": {
+    "best_model": "XGBoost",
+    "metrics": {
+      "XGBoost": {
+        "mae": 666759.92,
+        "rmse": 809955.26,
+        "mape": 1.45
+      },
+      "StackedEnsemble": {
+        "mae": 667039.07,
+        "rmse": 810188.74,
+        "mape": 1.45
+      },
+      "LSTM": {
+        "mae": 2394873.72,
+        "rmse": 2814628.04,
+        "mape": 5.32
+      },
+      "ARIMA": {
+        "mae": 4331214.88,
+        "rmse": 4620244.93,
+        "mape": 9.56
+      },
+      "Prophet": {
+        "mae": 7167317.22,
+        "rmse": 7513563.77,
+        "mape": 15.72
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Maryland": {
+    "best_model": "XGBoost",
+    "metrics": {
+      "XGBoost": {
+        "mae": 1297121.39,
+        "rmse": 1924151.85,
+        "mape": 0.82
+      },
+      "StackedEnsemble": {
+        "mae": 1324617.32,
+        "rmse": 1934509.23,
+        "mape": 0.83
+      },
+      "ARIMA": {
+        "mae": 6411579.93,
+        "rmse": 7460036.09,
+        "mape": 4.14
+      },
+      "LSTM": {
+        "mae": 9560489.61,
+        "rmse": 10551598.01,
+        "mape": 6.15
+      },
+      "Prophet": {
+        "mae": 12008045.45,
+        "rmse": 13169441.54,
+        "mape": 7.71
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Massachusetts": {
+    "best_model": "XGBoost",
+    "metrics": {
+      "XGBoost": {
+        "mae": 1252821.67,
+        "rmse": 2238894.74,
+        "mape": 0.7
+      },
+      "StackedEnsemble": {
+        "mae": 1260797.51,
+        "rmse": 2247219.95,
+        "mape": 0.7
+      },
+      "ARIMA": {
+        "mae": 9568178.31,
+        "rmse": 11410938.62,
+        "mape": 5.49
+      },
+      "LSTM": {
+        "mae": 11407968.82,
+        "rmse": 13085559.98,
+        "mape": 6.53
+      },
+      "Prophet": {
+        "mae": 17667314.42,
+        "rmse": 19043773.61,
+        "mape": 10.0
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Michigan": {
+    "best_model": "StackedEnsemble",
+    "metrics": {
+      "StackedEnsemble": {
+        "mae": 2122651.21,
+        "rmse": 2992569.22,
+        "mape": 0.75
+      },
+      "XGBoost": {
+        "mae": 2140630.6,
+        "rmse": 3003784.65,
+        "mape": 0.75
+      },
+      "LSTM": {
+        "mae": 9232709.41,
+        "rmse": 11517065.75,
+        "mape": 3.32
+      },
+      "ARIMA": {
+        "mae": 18135347.97,
+        "rmse": 20689772.33,
+        "mape": 6.53
+      },
+      "Prophet": {
+        "mae": 24832137.48,
+        "rmse": 27185252.35,
+        "mape": 8.89
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Minnesota": {
+    "best_model": "XGBoost",
+    "metrics": {
+      "XGBoost": {
+        "mae": 1276522.65,
+        "rmse": 1798475.35,
+        "mape": 0.83
+      },
+      "StackedEnsemble": {
+        "mae": 1281230.61,
+        "rmse": 1802429.93,
+        "mape": 0.83
+      },
+      "LSTM": {
+        "mae": 7538765.76,
+        "rmse": 8994100.21,
+        "mape": 5.05
+      },
+      "Prophet": {
+        "mae": 10400353.92,
+        "rmse": 11835522.83,
+        "mape": 6.94
+      },
+      "ARIMA": {
+        "mae": 13539473.1,
+        "rmse": 14910621.08,
+        "mape": 9.03
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Mississippi": {
+    "best_model": "XGBoost",
+    "metrics": {
+      "XGBoost": {
+        "mae": 856451.73,
+        "rmse": 1449328.65,
+        "mape": 0.72
+      },
+      "StackedEnsemble": {
+        "mae": 2257776.07,
+        "rmse": 2562086.49,
+        "mape": 1.86
+      },
+      "ARIMA": {
+        "mae": 5503907.13,
+        "rmse": 6499380.72,
+        "mape": 4.64
+      },
+      "LSTM": {
+        "mae": 16004769.65,
+        "rmse": 16889567.46,
+        "mape": 13.04
+      },
+      "Prophet": {
+        "mae": 42579198.44,
+        "rmse": 43692199.34,
+        "mape": 35.28
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Missouri": {
+    "best_model": "StackedEnsemble",
+    "metrics": {
+      "StackedEnsemble": {
+        "mae": 1477573.88,
+        "rmse": 2276196.86,
+        "mape": 0.77
+      },
+      "XGBoost": {
+        "mae": 1485591.59,
+        "rmse": 2282438.61,
+        "mape": 0.78
+      },
+      "ARIMA": {
+        "mae": 8260856.45,
+        "rmse": 10771735.04,
+        "mape": 4.46
+      },
+      "LSTM": {
+        "mae": 9368153.06,
+        "rmse": 12009408.18,
+        "mape": 5.06
+      },
+      "Prophet": {
+        "mae": 14926428.09,
+        "rmse": 17370864.06,
+        "mape": 7.97
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Nebraska": {
+    "best_model": "XGBoost",
+    "metrics": {
+      "XGBoost": {
+        "mae": 524019.94,
+        "rmse": 753769.97,
+        "mape": 0.85
+      },
+      "StackedEnsemble": {
+        "mae": 528477.92,
+        "rmse": 757189.03,
+        "mape": 0.86
+      },
+      "ARIMA": {
+        "mae": 2573408.52,
+        "rmse": 3204650.73,
+        "mape": 4.33
+      },
+      "LSTM": {
+        "mae": 4450011.14,
+        "rmse": 5165424.49,
+        "mape": 7.1
+      },
+      "Prophet": {
+        "mae": 16807836.45,
+        "rmse": 17203725.38,
+        "mape": 27.69
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Nevada": {
+    "best_model": "XGBoost",
+    "metrics": {
+      "XGBoost": {
+        "mae": 765354.2,
+        "rmse": 1216690.9,
+        "mape": 0.78
+      },
+      "StackedEnsemble": {
+        "mae": 783516.85,
+        "rmse": 1232020.17,
+        "mape": 0.8
+      },
+      "ARIMA": {
+        "mae": 4694948.71,
+        "rmse": 5770953.57,
+        "mape": 4.87
+      },
+      "LSTM": {
+        "mae": 7774647.85,
+        "rmse": 8973294.8,
+        "mape": 8.08
+      },
+      "Prophet": {
+        "mae": 10386931.63,
+        "rmse": 11330307.15,
+        "mape": 10.69
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "New Hampshire": {
+    "best_model": "XGBoost",
+    "metrics": {
+      "XGBoost": {
+        "mae": 456358.79,
+        "rmse": 626392.56,
+        "mape": 0.83
+      },
+      "StackedEnsemble": {
+        "mae": 456525.1,
+        "rmse": 626531.72,
+        "mape": 0.84
+      },
+      "LSTM": {
+        "mae": 2415028.88,
+        "rmse": 2888230.63,
+        "mape": 4.54
+      },
+      "ARIMA": {
+        "mae": 4149642.88,
+        "rmse": 4607843.93,
+        "mape": 7.78
+      },
+      "Prophet": {
+        "mae": 5316215.56,
+        "rmse": 5729842.12,
+        "mape": 9.9
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "New Mexico": {
+    "best_model": "XGBoost",
+    "metrics": {
+      "XGBoost": {
+        "mae": 679751.21,
+        "rmse": 1079448.16,
+        "mape": 0.95
+      },
+      "StackedEnsemble": {
+        "mae": 683284.83,
+        "rmse": 1082893.13,
+        "mape": 0.96
+      },
+      "ARIMA": {
+        "mae": 3883273.25,
+        "rmse": 4760064.77,
+        "mape": 5.66
+      },
+      "LSTM": {
+        "mae": 4674719.79,
+        "rmse": 5589929.65,
+        "mape": 6.41
+      },
+      "Prophet": {
+        "mae": 6034716.12,
+        "rmse": 7014725.34,
+        "mape": 8.76
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "New York": {
+    "best_model": "StackedEnsemble",
+    "metrics": {
+      "StackedEnsemble": {
+        "mae": 2722782.08,
+        "rmse": 4352067.2,
+        "mape": 0.64
+      },
+      "XGBoost": {
+        "mae": 2727110.88,
+        "rmse": 4355297.22,
+        "mape": 0.64
+      },
+      "LSTM": {
+        "mae": 23280547.6,
+        "rmse": 27186796.67,
+        "mape": 5.61
+      },
+      "ARIMA": {
+        "mae": 24758259.91,
+        "rmse": 28557263.89,
+        "mape": 5.96
+      },
+      "Prophet": {
+        "mae": 40279563.64,
+        "rmse": 43136806.02,
+        "mape": 9.6
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "North Carolina": {
+    "best_model": "XGBoost",
+    "metrics": {
+      "XGBoost": {
+        "mae": 2620927.67,
+        "rmse": 4164234.2,
+        "mape": 0.75
+      },
+      "StackedEnsemble": {
+        "mae": 2623335.5,
+        "rmse": 4163834.31,
+        "mape": 0.75
+      },
+      "LSTM": {
+        "mae": 12553447.38,
+        "rmse": 15035259.31,
+        "mape": 3.55
+      },
+      "ARIMA": {
+        "mae": 12553772.45,
+        "rmse": 15766454.05,
+        "mape": 3.69
+      },
+      "Prophet": {
+        "mae": 27780868.77,
+        "rmse": 31303400.37,
+        "mape": 8.11
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Ohio": {
+    "best_model": "XGBoost",
+    "metrics": {
+      "XGBoost": {
+        "mae": 3034083.98,
+        "rmse": 4488475.71,
+        "mape": 0.83
+      },
+      "StackedEnsemble": {
+        "mae": 3043360.1,
+        "rmse": 4496868.39,
+        "mape": 0.84
+      },
+      "ARIMA": {
+        "mae": 12799802.74,
+        "rmse": 16807253.48,
+        "mape": 3.64
+      },
+      "LSTM": {
+        "mae": 19188906.52,
+        "rmse": 23154336.91,
+        "mape": 5.44
+      },
+      "Prophet": {
+        "mae": 22771262.65,
+        "rmse": 26816993.44,
+        "mape": 6.43
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Oklahoma": {
+    "best_model": "XGBoost",
+    "metrics": {
+      "XGBoost": {
+        "mae": 914392.62,
+        "rmse": 1406591.2,
+        "mape": 0.64
+      },
+      "StackedEnsemble": {
+        "mae": 915240.3,
+        "rmse": 1407274.39,
+        "mape": 0.64
+      },
+      "ARIMA": {
+        "mae": 5268123.85,
+        "rmse": 6333027.92,
+        "mape": 3.7
+      },
+      "LSTM": {
+        "mae": 5948055.69,
+        "rmse": 7169729.63,
+        "mape": 4.09
+      },
+      "Prophet": {
+        "mae": 8888701.49,
+        "rmse": 10424885.19,
+        "mape": 6.35
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Oregon": {
+    "best_model": "StackedEnsemble",
+    "metrics": {
+      "StackedEnsemble": {
+        "mae": 946343.24,
+        "rmse": 1320534.62,
+        "mape": 0.84
+      },
+      "XGBoost": {
+        "mae": 957584.8,
+        "rmse": 1333740.82,
+        "mape": 0.85
+      },
+      "LSTM": {
+        "mae": 5183609.78,
+        "rmse": 6486566.69,
+        "mape": 4.76
+      },
+      "ARIMA": {
+        "mae": 5347174.1,
+        "rmse": 6682881.35,
+        "mape": 4.92
+      },
+      "Prophet": {
+        "mae": 9428761.8,
+        "rmse": 10589200.94,
+        "mape": 8.61
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Pennsylvania": {
+    "best_model": "XGBoost",
+    "metrics": {
+      "XGBoost": {
+        "mae": 2556245.66,
+        "rmse": 3681898.56,
+        "mape": 0.72
+      },
+      "StackedEnsemble": {
+        "mae": 2571234.57,
+        "rmse": 3694249.37,
+        "mape": 0.73
+      },
+      "ARIMA": {
+        "mae": 15468256.28,
+        "rmse": 18793326.84,
+        "mape": 4.48
+      },
+      "LSTM": {
+        "mae": 23502008.5,
+        "rmse": 26012518.76,
+        "mape": 6.76
+      },
+      "Prophet": {
+        "mae": 27788467.06,
+        "rmse": 30404616.27,
+        "mape": 7.96
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Rhode Island": {
+    "best_model": "XGBoost",
+    "metrics": {
+      "XGBoost": {
+        "mae": 198485.69,
+        "rmse": 271662.34,
+        "mape": 0.76
+      },
+      "StackedEnsemble": {
+        "mae": 200496.04,
+        "rmse": 273548.43,
+        "mape": 0.77
+      },
+      "LSTM": {
+        "mae": 965158.35,
+        "rmse": 1217252.32,
+        "mape": 3.8
+      },
+      "ARIMA": {
+        "mae": 1222815.62,
+        "rmse": 1527603.97,
+        "mape": 4.86
+      },
+      "Prophet": {
+        "mae": 1859244.19,
+        "rmse": 2154964.19,
+        "mape": 7.33
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "South Carolina": {
+    "best_model": "XGBoost",
+    "metrics": {
+      "XGBoost": {
+        "mae": 1324970.1,
+        "rmse": 2261761.15,
+        "mape": 0.69
+      },
+      "StackedEnsemble": {
+        "mae": 1325101.89,
+        "rmse": 2261947.14,
+        "mape": 0.69
+      },
+      "LSTM": {
+        "mae": 6742903.79,
+        "rmse": 8264417.28,
+        "mape": 3.58
+      },
+      "ARIMA": {
+        "mae": 7097039.71,
+        "rmse": 8872780.2,
+        "mape": 3.8
+      },
+      "Prophet": {
+        "mae": 18389627.94,
+        "rmse": 20550294.4,
+        "mape": 9.82
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "South Dakota": {
+    "best_model": "StackedEnsemble",
+    "metrics": {
+      "StackedEnsemble": {
+        "mae": 418782.19,
+        "rmse": 533983.58,
+        "mape": 1.49
+      },
+      "XGBoost": {
+        "mae": 419184.36,
+        "rmse": 534368.85,
+        "mape": 1.49
+      },
+      "LSTM": {
+        "mae": 1371371.17,
+        "rmse": 1606730.26,
+        "mape": 4.8
+      },
+      "ARIMA": {
+        "mae": 2077274.39,
+        "rmse": 2388871.08,
+        "mape": 7.6
+      },
+      "Prophet": {
+        "mae": 3878400.18,
+        "rmse": 4177211.98,
+        "mape": 13.95
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Tennessee": {
+    "best_model": "XGBoost",
+    "metrics": {
+      "XGBoost": {
+        "mae": 1757723.08,
+        "rmse": 2851248.56,
+        "mape": 0.69
+      },
+      "StackedEnsemble": {
+        "mae": 1767240.14,
+        "rmse": 2861464.05,
+        "mape": 0.69
+      },
+      "ARIMA": {
+        "mae": 8546207.39,
+        "rmse": 10760831.15,
+        "mape": 3.42
+      },
+      "LSTM": {
+        "mae": 14781316.77,
+        "rmse": 17816171.46,
+        "mape": 5.97
+      },
+      "Prophet": {
+        "mae": 18950678.75,
+        "rmse": 21946430.66,
+        "mape": 7.6
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Texas": {
+    "best_model": "XGBoost",
+    "metrics": {
+      "XGBoost": {
+        "mae": 5393658.91,
+        "rmse": 10026647.13,
+        "mape": 0.61
+      },
+      "StackedEnsemble": {
+        "mae": 5647201.73,
+        "rmse": 10526921.7,
+        "mape": 0.64
+      },
+      "ARIMA": {
+        "mae": 49119708.89,
+        "rmse": 58217976.66,
+        "mape": 5.74
+      },
+      "LSTM": {
+        "mae": 63760193.87,
+        "rmse": 73346389.03,
+        "mape": 7.44
+      },
+      "Prophet": {
+        "mae": 99574807.16,
+        "rmse": 109185015.58,
+        "mape": 11.52
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Utah": {
+    "best_model": "XGBoost",
+    "metrics": {
+      "XGBoost": {
+        "mae": 598195.72,
+        "rmse": 968293.6,
+        "mape": 0.73
+      },
+      "StackedEnsemble": {
+        "mae": 685039.31,
+        "rmse": 1022272.62,
+        "mape": 0.84
+      },
+      "LSTM": {
+        "mae": 4829273.03,
+        "rmse": 5870769.21,
+        "mape": 6.12
+      },
+      "ARIMA": {
+        "mae": 5872449.55,
+        "rmse": 6951544.03,
+        "mape": 7.44
+      },
+      "Prophet": {
+        "mae": 6002101.26,
+        "rmse": 7094033.96,
+        "mape": 7.59
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Vermont": {
+    "best_model": "StackedEnsemble",
+    "metrics": {
+      "StackedEnsemble": {
+        "mae": 137451.4,
+        "rmse": 186479.6,
+        "mape": 0.76
+      },
+      "XGBoost": {
+        "mae": 137824.34,
+        "rmse": 186811.72,
+        "mape": 0.76
+      },
+      "LSTM": {
+        "mae": 597472.34,
+        "rmse": 678975.6,
+        "mape": 3.33
+      },
+      "ARIMA": {
+        "mae": 1073278.97,
+        "rmse": 1205052.91,
+        "mape": 6.03
+      },
+      "Prophet": {
+        "mae": 1399558.8,
+        "rmse": 1538756.81,
+        "mape": 7.84
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Virginia": {
+    "best_model": "StackedEnsemble",
+    "metrics": {
+      "StackedEnsemble": {
+        "mae": 2111953.12,
+        "rmse": 3400806.81,
+        "mape": 0.74
+      },
+      "XGBoost": {
+        "mae": 2133319.84,
+        "rmse": 3417883.98,
+        "mape": 0.75
+      },
+      "ARIMA": {
+        "mae": 9389674.94,
+        "rmse": 11532224.53,
+        "mape": 3.38
+      },
+      "Prophet": {
+        "mae": 14043545.99,
+        "rmse": 17620928.15,
+        "mape": 5.1
+      },
+      "LSTM": {
+        "mae": 26158052.47,
+        "rmse": 28384231.64,
+        "mape": 9.1
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Washington": {
+    "best_model": "StackedEnsemble",
+    "metrics": {
+      "StackedEnsemble": {
+        "mae": 1867879.45,
+        "rmse": 2471592.51,
+        "mape": 1.01
+      },
+      "XGBoost": {
+        "mae": 1871333.53,
+        "rmse": 2474756.32,
+        "mape": 1.01
+      },
+      "LSTM": {
+        "mae": 7824098.18,
+        "rmse": 9505372.91,
+        "mape": 4.18
+      },
+      "ARIMA": {
+        "mae": 9185095.06,
+        "rmse": 10892034.51,
+        "mape": 5.13
+      },
+      "Prophet": {
+        "mae": 12739706.42,
+        "rmse": 14340291.96,
+        "mape": 7.08
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "West Virginia": {
+    "best_model": "StackedEnsemble",
+    "metrics": {
+      "StackedEnsemble": {
+        "mae": 735458.41,
+        "rmse": 1043926.17,
+        "mape": 0.99
+      },
+      "XGBoost": {
+        "mae": 735984.13,
+        "rmse": 1044465.63,
+        "mape": 0.99
+      },
+      "ARIMA": {
+        "mae": 3060476.02,
+        "rmse": 3634244.99,
+        "mape": 4.17
+      },
+      "Prophet": {
+        "mae": 3143458.14,
+        "rmse": 3975253.07,
+        "mape": 4.43
+      },
+      "LSTM": {
+        "mae": 3321532.32,
+        "rmse": 3893565.42,
+        "mape": 4.5
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Wisconsin": {
+    "best_model": "StackedEnsemble",
+    "metrics": {
+      "StackedEnsemble": {
+        "mae": 1001232.46,
+        "rmse": 1456093.71,
+        "mape": 0.65
+      },
+      "XGBoost": {
+        "mae": 1008090.8,
+        "rmse": 1459000.88,
+        "mape": 0.65
+      },
+      "LSTM": {
+        "mae": 5683534.76,
+        "rmse": 7264226.97,
+        "mape": 3.79
+      },
+      "Prophet": {
+        "mae": 10194374.47,
+        "rmse": 11813512.29,
+        "mape": 6.78
+      },
+      "ARIMA": {
+        "mae": 10489871.94,
+        "rmse": 12086037.96,
+        "mape": 6.98
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  },
+  "Wyoming": {
+    "best_model": "XGBoost",
+    "metrics": {
+      "XGBoost": {
+        "mae": 251911.94,
+        "rmse": 314193.6,
+        "mape": 1.2
+      },
+      "StackedEnsemble": {
+        "mae": 252309.37,
+        "rmse": 314577.94,
+        "mape": 1.2
+      },
+      "LSTM": {
+        "mae": 1539170.91,
+        "rmse": 1738840.0,
+        "mape": 7.5
+      },
+      "ARIMA": {
+        "mae": 1740087.2,
+        "rmse": 1955457.46,
+        "mape": 8.49
+      },
+      "Prophet": {
+        "mae": 2946545.64,
+        "rmse": 3142569.87,
+        "mape": 14.23
+      }
+    },
+    "train_size": 1429,
+    "test_size": 358
+  }
+}

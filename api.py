@@ -11,16 +11,12 @@ from pathlib import Path
 import joblib
 import config
 from data_preprocessing import DataPreprocessor
-from models import ARIMAModel, XGBoostModel, LSTMModel, StackedEnsembleModel, PROPHET_AVAILABLE
-from model_comparison import ModelComparator
-
-# Try to import Prophet if available
-if PROPHET_AVAILABLE:
-    from models import ProphetModel
+from models import XGBoostModel
+import os
 
 app = FastAPI(
     title="Sales Forecasting API",
-    description="API for forecasting sales using multiple ML models",
+    description="API for forecasting sales using XGBoost",
     version="1.0.0"
 )
 
@@ -34,7 +30,6 @@ app.add_middleware(
 )
 
 # Global variables
-model_comparator = ModelComparator()
 preprocessor = DataPreprocessor()
 loaded_models = {}  # Cache for loaded models
 
@@ -58,116 +53,36 @@ class HealthResponse(BaseModel):
 
 
 def load_model_for_state(state: str):
-    """Load the best model for a given state"""
+    """Load the XGBoost model for a given state"""
     if state in loaded_models:
         return loaded_models[state]
     
-    # Try to find saved model
-    model_files = list(config.MODELS_DIR.glob(f"{state}_*.joblib")) + \
-                  list(config.MODELS_DIR.glob(f"{state}_*.h5"))
+    # Try to find saved XGBoost model
+    xgb_file = config.MODELS_DIR / f"{state}_xgboost.joblib"
     
-    if not model_files:
-        raise ValueError(f"No trained model found for state: {state}")
+    if not xgb_file.exists():
+        # Debugging: List actual files to understand why lookup failed
+        try:
+            available = os.listdir(config.MODELS_DIR)
+        except Exception as e:
+            available = [f"Error listing dir: {e}"]
+        raise ValueError(f"No XGBoost model found for state: {state}. Looked for {xgb_file}. Available files: {available}")
     
-    # Load model comparison results to find the best model
     try:
-        import json
-        with open(config.RESULTS_DIR / "model_comparison_results.json", 'r') as f:
-            comparison_results = json.load(f)
-        
-        if state in comparison_results:
-            best_model_name = comparison_results[state]['best_model']
-            
-            # Construct expected filename
-            if best_model_name == 'LSTM':
-                expected_file = config.MODELS_DIR / f"{state}_lstm.h5"
-            elif best_model_name == 'StackedEnsemble':
-                expected_file = config.MODELS_DIR / f"{state}_stacked_ensemble.joblib"
-            else:
-                expected_file = config.MODELS_DIR / f"{state}_{best_model_name.lower()}.joblib"
-                
-            if expected_file.exists():
-                model_file = expected_file
-                print(f"Loading best model for {state}: {best_model_name}")
-            else:
-                print(f"Warning: Best model {best_model_name} for {state} not found at {expected_file}. Falling back to any available model.")
-                model_file = model_files[0]
-        else:
-             print(f"Warning: No comparison results for {state}. Falling back to any available model.")
-             model_file = model_files[0]
-             
-    except Exception as e:
-        print(f"Warning: Error reading best model info: {e}. Falling back to any available model.")
-        model_file = model_files[0]
-
-    # Determine model type from filename
-    model_name_lower = model_file.stem.split('_')[-1]
-    model_name_lower = model_file.stem.split('_')[-1]
-    
-    if model_name_lower == 'lstm':
-        model = LSTMModel(state)
-        model.load(str(model_file))
-        model_name = 'LSTM'
-    elif model_name_lower == 'prophet':
-        if not PROPHET_AVAILABLE:
-            raise ValueError(f"Prophet model found for {state} but Prophet is not installed. Install it with: pip install prophet --no-build-isolation")
-        model = ProphetModel(state)
-        model.load(str(model_file))
-        model_name = 'Prophet'
-    elif model_name_lower == 'xgboost':
         model = XGBoostModel(state)
-        model.load(str(model_file))
+        # Force load the xgboost joblib file
+        model.load(str(xgb_file))
         model_name = 'XGBoost'
-    elif model_name_lower == 'ensemble' or 'stacked' in model_name_lower:
-        model = StackedEnsembleModel(state)
-        model.load(str(model_file))
-        model_name = 'StackedEnsemble'
-        
-        # We need to reload base models for the ensemble to work
-        # This is expensive but necessary for the API
-        base_models = {}
-        target_base_models = ['ARIMA', 'XGBoost', 'Prophet', 'LSTM']
-        
-        for base_name in target_base_models:
-            try:
-                if base_name == 'ARIMA':
-                    base_path = config.MODELS_DIR / f"{state}_arima.joblib"
-                    if base_path.exists():
-                        m = ARIMAModel(state)
-                        m.load(str(base_path))
-                        base_models['ARIMA'] = m
-                elif base_name == 'XGBoost':
-                    base_path = config.MODELS_DIR / f"{state}_xgboost.joblib"
-                    if base_path.exists():
-                        m = XGBoostModel(state)
-                        m.load(str(base_path))
-                        base_models['XGBoost'] = m
-                elif base_name == 'Prophet' and PROPHET_AVAILABLE:
-                    base_path = config.MODELS_DIR / f"{state}_prophet.joblib"
-                    if base_path.exists():
-                        m = ProphetModel(state)
-                        m.load(str(base_path))
-                        base_models['Prophet'] = m
-                elif base_name == 'LSTM':
-                    base_path = config.MODELS_DIR / f"{state}_lstm.h5"
-                    if base_path.exists():
-                        m = LSTMModel(state)
-                        m.load(str(base_path))
-                        base_models['LSTM'] = m
-            except Exception as e:
-                print(f"Warning: Failed to load base model {base_name} for ensemble: {e}")
-        
-        model.base_models = base_models
-        
-    else:  # arima
-        model = ARIMAModel(state)
-        model.load(str(model_file))
-        model_name = 'ARIMA'
-    
+        print(f"Loaded XGBoost model for {state}")
+            
+    except Exception as e:
+        print(f"Error loading model for {state}: {e}")
+        raise ValueError(f"Failed to load XGBoost model for {state}: {e}")
+
     loaded_models[state] = {
         'model': model,
         'model_name': model_name,
-        'file_path': str(model_file)
+        'file_path': str(xgb_file)
     }
     
     return loaded_models[state]
@@ -193,7 +108,7 @@ async def root():
     """Health check endpoint"""
     return {
         "status": "healthy",
-        "message": "Sales Forecasting API is running"
+        "message": "Sales Forecasting API is running (XGBoost Only)"
     }
 
 
@@ -209,8 +124,7 @@ async def health():
 @app.get("/states")
 async def get_available_states():
     """Get list of states with trained models"""
-    model_files = list(config.MODELS_DIR.glob("*_*.joblib")) + \
-                  list(config.MODELS_DIR.glob("*_*.h5"))
+    model_files = list(config.MODELS_DIR.glob("*_xgboost.joblib"))
     
     states = set()
     for model_file in model_files:
@@ -227,12 +141,6 @@ async def get_available_states():
 async def forecast(request: ForecastRequest):
     """
     Generate forecasts for a specific state
-    
-    Args:
-        request: ForecastRequest with state and optional weeks parameter
-    
-    Returns:
-        ForecastResponse with predictions
     """
     try:
         # Load model for the state
@@ -274,60 +182,43 @@ async def forecast(request: ForecastRequest):
             freq='D'
         )
         
-        # Generate predictions based on model type
-        if model_name == 'XGBoost':
-            # Create future dataframe with features
-            future_df = pd.DataFrame({config.DATE_COLUMN: forecast_dates})
-            future_df[config.STATE_COLUMN] = request.state
-            if config.CATEGORY_COLUMN in state_df.columns:
-                future_df[config.CATEGORY_COLUMN] = state_df[config.CATEGORY_COLUMN].iloc[0]
+        # Create future dataframe with features for XGBoost
+        future_df = pd.DataFrame({config.DATE_COLUMN: forecast_dates})
+        future_df[config.STATE_COLUMN] = request.state
+        if config.CATEGORY_COLUMN in state_df.columns:
+            future_df[config.CATEGORY_COLUMN] = state_df[config.CATEGORY_COLUMN].iloc[0]
+        
+        # Create time features
+        future_df = preprocessor.create_time_features(future_df)
+        
+        # Use last known values for lag features
+        last_values = state_df[config.TARGET_COLUMN].tail(max(config.LAG_FEATURES)).values
+        for lag in config.LAG_FEATURES:
+            if lag <= len(last_values):
+                future_df[f'lag_{lag}'] = last_values[-lag]
+            else:
+                future_df[f'lag_{lag}'] = state_df[config.TARGET_COLUMN].iloc[-1]
+        
+        # Rolling features (use last known values)
+        for window in config.ROLLING_WINDOWS:
+            col_mean = f'rolling_mean_{window}'
+            col_std = f'rolling_std_{window}'
+            col_min = f'rolling_min_{window}'
+            col_max = f'rolling_max_{window}'
             
-            # Create time features
-            future_df = preprocessor.create_time_features(future_df)
-            
-            # Use last known values for lag features
-            last_values = state_df[config.TARGET_COLUMN].tail(max(config.LAG_FEATURES)).values
-            for lag in config.LAG_FEATURES:
-                if lag <= len(last_values):
-                    future_df[f'lag_{lag}'] = last_values[-lag]
-                else:
-                    future_df[f'lag_{lag}'] = state_df[config.TARGET_COLUMN].iloc[-1]
-            
-            # Rolling features (use last known values)
-            for window in config.ROLLING_WINDOWS:
-                col_mean = f'rolling_mean_{window}'
-                col_std = f'rolling_std_{window}'
-                col_min = f'rolling_min_{window}'
-                col_max = f'rolling_max_{window}'
-                
-                if col_mean in state_df.columns:
-                    future_df[col_mean] = state_df[col_mean].iloc[-1]
-                    future_df[col_std] = state_df[col_std].iloc[-1]
-                    future_df[col_min] = state_df[col_min].iloc[-1]
-                    future_df[col_max] = state_df[col_max].iloc[-1]
-                else:
-                    last_val = state_df[config.TARGET_COLUMN].iloc[-1]
-                    future_df[col_mean] = last_val
-                    future_df[col_std] = 0
-                    future_df[col_min] = last_val
-                    future_df[col_max] = last_val
-            
-            predictions = model.predict(future_df, preprocessor)
-            
-        elif model_name == 'LSTM':
-            predictions = model.predict_from_data(state_df, forecast_days, preprocessor)
-            
-        elif model_name == 'Prophet':
-            predictions = model.predict(forecast_days, last_date)
-            
-        elif model_name == 'StackedEnsemble':
-            # Create future dataframe
-            future_df = pd.DataFrame({config.DATE_COLUMN: forecast_dates})
-            # Stacked Ensemble needs history to generate features for base models like XGBoost
-            predictions = model.predict(future_df, state_df, preprocessor)
-            
-        else:  # ARIMA
-            predictions = model.predict(forecast_days)
+            if col_mean in state_df.columns:
+                future_df[col_mean] = state_df[col_mean].iloc[-1]
+                future_df[col_std] = state_df[col_std].iloc[-1]
+                future_df[col_min] = state_df[col_min].iloc[-1]
+                future_df[col_max] = state_df[col_max].iloc[-1]
+            else:
+                last_val = state_df[config.TARGET_COLUMN].iloc[-1]
+                future_df[col_mean] = last_val
+                future_df[col_std] = 0
+                future_df[col_min] = last_val
+                future_df[col_max] = last_val
+        
+        predictions = model.predict(future_df, preprocessor)
         
         # Format response
         forecasts = [
