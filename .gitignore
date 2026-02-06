@@ -24,8 +24,7 @@ wheels/
 *.egg
 
 # Models and data
-models/*.joblib
-models/*.h5
+# (Allow trained models)
 models/*_scaler.joblib
 models/*_config.joblib
 data/*.xlsx
@@ -49,4 +48,3 @@ Thumbs.db
 
 # Logs
 *.log
-
