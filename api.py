@@ -108,7 +108,7 @@ async def root():
     """Health check endpoint"""
     return {
         "status": "healthy",
-        "message": "Sales Forecasting API is running (XGBoost Only)"
+        "message": "Sales Forecasting API is running"
     }
 
 
